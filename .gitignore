@@ -9,5 +9,5 @@ bt.dat
 /plugins/*
 /packages/*
 /client_packages/*
-/app/server/sMysql.js
-/app/server/sMailer.js
+# /app/server/sMysql.js
+# /app/server/sMailer.js
