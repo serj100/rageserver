@@ -176,9 +176,9 @@ const i18n = {
 		}, 
 	
 		annouceOldUser: {
-			eng: 'If you have account in old server version and want restore data, write here in chat your old name. I will check it in logs',
-			rus: 'Если у вас есть аккаунт на старом сервере, напишите в чате старое имя. Я посмотрю это по логам',
-			ger: 'Wenn Sie einen Account haben und Daten wiederherstellen möchten, schreiben Sie hier im Chat Ihren alten Namen. Ich werde es in Logs überprüfen',
+			eng: 'Welcome to the AvanRage server! The server is absolutely free, but you have the opportunity to subscribe to us at Patreon: https://www.patreon.com/avanrage and help the server every month for only $ 1 !!! Receiving a gift every month !!!',
+			rus: 'Добро пожаловать на сервер AvanRage! Сервер абсолютно бесплатен, но у Вас есть возможность подписаться на нас в Patreon : https://www.patreon.com/avanrage и помогать серверу каждый месяц всего за 1$!!! Получая подарок каждый месяц!!!',
+			ger: 'Willkommen auf dem AvanRage-Server! Der Server ist absolut kostenlos, aber Sie haben die Möglichkeit, sich bei Patreon anzumelden: https://www.patreon.com/avanrage und dem Server jeden Monat für nur 1 US-Dollar zu helfen !!! Jeden Monat ein Geschenk erhalten !!!',
 		},
 		
 		saveGame: {

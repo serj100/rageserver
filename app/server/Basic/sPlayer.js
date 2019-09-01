@@ -158,7 +158,7 @@ mp.events.addCommand({
         let rot;
         if (player.vehicle) rot = player.vehicle.rotation.z
         else rot = player.heading;
-        const str = `x: ${misc.roundNum(pos.x, 3)}, y: ${misc.roundNum(pos.y, 3)}, z: ${misc.roundNum(pos.z, 3)}, rot: ${misc.roundNum(rot, 2)}`;
+        const str = `${misc.roundNum(pos.x, 3)}, ${misc.roundNum(pos.y, 3)}, ${misc.roundNum(pos.z, 3)}, ${misc.roundNum(rot, 2)}`;
         player.outputChatBox(str);
         misc.log.debug(str);
     },

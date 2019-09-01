@@ -98,6 +98,12 @@ class ATMSingletone {
 		this.createATM(2683, 3286.5, 55.21);
 		this.createATM(-611.92, -704.75, 31.26);
 		this.createATM(-614.6, -704.75, 31.26);
+		this.createATM(-526.612, -1222.822, 18.455);
+		this.createATM(-821.534, -1081.915, 11.132);
+		this.createATM(-846.341, -340.983, 38.68);
+		this.createATM(-537.698, -854.404, 29.304);
+		this.createATM(5.189, -919.806, 29.559);
+		this.createATM(-203.963, -861.442, 30.268);
 	}
 
 	updateATMInfo(player) {

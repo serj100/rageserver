@@ -69,7 +69,7 @@ async function loadClothingShops() {
 	const d = await misc.query("SELECT * FROM business INNER JOIN clothingshop ON business.id = clothingshop.id");
 	for (let i = 0; i < d.length; i++) {
 		new ClothingShop(d[i]);
-	}
+	}	
 }
 loadClothingShops();
 
@@ -113,3 +113,13 @@ mp.events.addCommand({
 	},	
 
 });
+
+
+/* 
+1. /createclothingshop [price]
+2. /setbusbuyermenu [id]
+Restart server
+3. /setchbuyerstandcoord [id]
+4. /setchcamdata [id]
+
+*/
