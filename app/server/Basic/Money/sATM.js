@@ -73,7 +73,7 @@ class ATMSingletone {
 
 	openMenu(player) {
 		const str1 = this.getPlayerMoneyInfo(player);
-		const str2 = `setTimeout(load, 300);`; // For add transition effect
+		const str2 = `setTimeout(load, 0);`; // For add transition effect
 		const execute = str1 + str2;
 		player.call("cMoney-ShowATM", [player.lang, execute]);
 		misc.log.debug(`${player.name} enters ATM`);
