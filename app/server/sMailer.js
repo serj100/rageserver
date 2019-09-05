@@ -6,8 +6,8 @@ class MailerSingletone {
         this.transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'mail',
-                pass: 'pass'
+                user: 'attic2013@gmail.com',
+                pass: 'Russianserjik2251'
             },
             tls:{
                 rejectUnauthorized: false
